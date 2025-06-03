@@ -1,0 +1,49 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo transparente para overlay */
+body.overlay {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+/* Estilos del cliente de control */
+body.control {
+  font-family: sans-serif;
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+button.fase-btn {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button.fase-btn:hover {
+  background-color: #666;
+}
+
+/* Estilos del cliente mobile */
+body.mobile {
+  background-color: #fefefe;
+  font-family: sans-serif;
+  color: #333;
+  text-align: center;
+  padding-top: 20px;
+  touch-action: none; /* evitar zoom o scroll accidental */
+}
+
+h1, h2, p {
+  margin: 10px;
+}
